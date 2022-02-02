@@ -16,8 +16,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
   <!-- custom style linked here  -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -76,7 +75,7 @@
         </div>
         <div class="head2-item" id="head2-right">
           <a href=""><i class="far fa-heart"></i></a>
-          <a href=""><i class="fal fa-shopping-cart"></i></a>
+          <a href=""><i class="fas fa-shopping-cart"></i></a>
           <span>My Cart - $40.00</span>
         </div>
       </div>

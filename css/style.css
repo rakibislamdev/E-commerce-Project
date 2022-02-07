@@ -233,27 +233,27 @@ body{
 /* banner style area end */
 
 /* about us and advertise section style */
-#aboutus-ad{
-  margin: -80px 200px 0 200px;
+#about-ad{
+  margin: 0 200px 0 200px;
 }
 
-.advertise{
+.advert{
   display: flex;
 }
 
-#advertise-item{
+.advert-item{
   width: 100%;
-  margin: 8px;
+  padding: 8px;
   height: 220px;
 }
 
-.advertise-1{
+#advertise-1{
   background-image: url("../img/advertise-1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.advertise-2{
+#advertise-2{
   background-image: url("../img/advertise-2.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -284,19 +284,19 @@ body{
   background-repeat: no-repeat;
 }
 
-.aboutus_right-text{
+.about_us_right-text{
   margin-left: 10px;
   line-height: 28px;
 }
-.aboutus_right-text i{
+.about_us_right-text i{
   color: yellowgreen;
 }
 
-.aboutus_right-text h1, h4{
+.about_us_right-text h1, h4{
   font-weight: 500px;
 }
 
-.aboutus_right-text p{
+.about_us_right-text p{
 font-size: 16px;
 color: rgb(158, 148, 148);
 }

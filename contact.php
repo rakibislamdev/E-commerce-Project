@@ -62,18 +62,35 @@
       </iframe>
     </div>
     <!--google map section area end-->
-
-    <div class="mid-section">
-      <div class="contact-form">
+<section class="contact">
         <div class="message-area">
-          <h1>Sent a message</h1>
-          <input type="text" placeholder="Your name">
+          <!-- <div class="message-title">
+            <h1>Sent a message</h1>
+          </div> -->
+          <div class="message-item">
+            <div class="inputbox">
+              <label for="name">Your Name</label><br>
+              <input type="text">
+            </div>
+            <div class="inputbox">
+              <label for="name">Your Name</label><br>
+              <input type="text">
+            </div>
+          </div>
+          <div class="message-item">
+            <div class="inputbox">
+              <label for="name">Your Name</label><br>
+              <input type="text">
+            </div>
+            <div class="inputbox">
+              <label for="name">Your Name</label><br>
+              <input type="text">
+            </div>
+          </div>
         </div>
-        <div class="contact">
+        <div class="contact-address">
           <h1>Contact</h1>
         </div>
-      </div>
-    </div>
   </section>
 
   <!-- footer -->

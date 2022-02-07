@@ -114,17 +114,17 @@
   <!--banner area end-->
 
   <!--about us area start -->
-  <section id="aboutus-ad">
+  <section id="about-ad">
     <!--advertise area start-->
-    <div class="advertise">
-      <div class="advertise-1" id="advertise-item">
+    <div class="advert">
+      <div id="advertise-1" class="advert-item">
         <div class="advertise-text">
           <h5>Starting At $19.00</h5>
           <h1>30% Off</h1>
           <h2>Best Quality Product</h2>
         </div>
       </div>
-      <div class="advertise-2" id="advertise-item">
+      <div id="advertise-2" class="advert-item">
         <div class="advertise-text">
           <h5>Fast Delivery</h5>
           <h2>Organic Tomatoes</h2>
@@ -142,7 +142,7 @@
 
       <!--about us right/text part start-->
       <div class="about_us-item" id="about_us-right">
-        <div class="aboutus_right-text">
+        <div class="about_us_right-text">
           <h4 style="color: yellowgreen;">A Few Words About Us</h4>
           <h1>A Shop For Good People</h1>
           <h1>by good people</h1>
@@ -488,7 +488,7 @@
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () {
+    window.ga = function() {
       ga.q.push(arguments)
     };
     ga.q = [];

@@ -1,99 +1,10 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Organic Shop - A E-Commerce Project</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta name="theme-color" content="#fafafa">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-  <!-- custom style linked here  -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
+<?php require_once('include/head.php') ?>
 
 <body>
 
   <div class="wrapper">
-    <section class="header">
-      <!--info header area start-->
-      <div class="info-header">
-        <div class="header-item" id="item1">
-          <span><i class="fas fa-envelope"></i> info.organicstore@gmail.com</span>
-        </div>
-        <div class="header-item" id="item2">
-          <div id="item2-left">
-            <i class="fas fa-phone-alt"></i> 01794060623
-          </div>
+    <?php require_once('include/header.php') ?>
 
-          <div class="item2-right">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-google-plus-g"></i></a>
-          </div>
-
-        </div>
-        <div class="header-item" id="item3">
-          <div id="item3-left">
-            <img src="https://img.icons8.com/office/16/000000/usa.png" />
-            English
-          </div>
-
-          <div id="item3-right">
-            <a href="account.html"><i class="fad fa-user-circle"></i> Login/Register</a>
-          </div>
-
-        </div>
-      </div>
-      <!--info header area end-->
-
-      <!--logo header area start-->
-      <div class="logo-header">
-        <div class="head2-item" id="logo">
-          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
-        </div>
-        <div class="head2-item">
-          <div class="search-box" id="head2-middle">
-            <input type="text" class="search-input" placeholder="Search..">
-
-            <button class="search-button">
-              <i class="fas fa-search"></i>
-            </button>
-          </div>
-        </div>
-        <div class="head2-item" id="head2-right">
-          <a href=""><i class="far fa-heart"></i></a>
-          <a href=""><i class="fas fa-shopping-cart"></i></a>
-          <span>My Cart - $40.00</span>
-        </div>
-      </div>
-      <!--logo header area end-->
-
-      <!-- header navbar area start-->
-      <div class="nav">
-        <ul class="navbar">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Service</a></li>
-          <li class="nav-item"><a href="#">Page</a></li>
-          <li class="nav-item"><a href="#">Shop</a></li>
-          <li class="nav-item"><a href="#">Blog</a></li>
-          <li class="nav-item"><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-    </section>
     <!--navbar area end-->
 
     <!--banner area end-->
@@ -181,6 +92,11 @@
     <div class="products-body">
       <div class="product">
         <img src="img/apple.PNG" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -188,6 +104,11 @@
       </div>
       <div class="product">
         <img src="img/orange.PNG" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -195,6 +116,11 @@
       </div>
       <div class="product">
         <img src="img/mango.PNG" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -202,6 +128,11 @@
       </div>
       <div class="product">
         <img src="img/banana.PNG" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -211,6 +142,11 @@
     <div class="products-body">
       <div class="product">
         <img src="img/tomato.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -218,6 +154,11 @@
       </div>
       <div class="product">
         <img src="img/papaya.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -225,6 +166,11 @@
       </div>
       <div class="product">
         <img src="img/pineapple.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -232,6 +178,11 @@
       </div>
       <div class="product">
         <img src="img/cabbage.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -268,6 +219,11 @@
     <div class="products-body">
       <div class="product">
         <img src="img/lau.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -275,6 +231,11 @@
       </div>
       <div class="product">
         <img src="img/peyaj.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -282,6 +243,11 @@
       </div>
       <div class="product">
         <img src="img/dalim.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -289,6 +255,11 @@
       </div>
       <div class="product">
         <img src="img/ada.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -298,6 +269,11 @@
     <div class="products-body">
       <div class="product">
         <img src="img/tormuj.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -305,6 +281,11 @@
       </div>
       <div class="product">
         <img src="img/angur.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -312,6 +293,11 @@
       </div>
       <div class="product">
         <img src="img/rosun.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -319,6 +305,11 @@
       </div>
       <div class="product">
         <img src="img/begun.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
           <p>$14.00-<del>$9.99</del></p>
@@ -364,11 +355,21 @@
     <div class="featured-product">
       <div id="offer-banner" class="offer-item">
         <img src="img/offer-banner.png" alt="">
+        <ul class="featured__item__pic__hover">
+          <li><a href="#"><i class="fa fa-heart"></i></a></li>
+          <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
       </div>
       <div class="offer-item">
         <div class="offer-products">
           <div class="offer-product">
             <img src="img/coconut.png" alt="">
+            <ul class="featured__item__pic__hover">
+              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
             <div class="offer_img-description">
               <h4>Apple Fruit</h4>
               <p>$14.00-<del>$9.99</del></p>
@@ -376,6 +377,11 @@
           </div>
           <div class="offer-product">
             <img src="img/dub.png" alt="">
+            <ul class="featured__item__pic__hover">
+              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
             <div class="offer_img-description">
               <h4>Apple Fruit</h4>
               <p>$14.00-<del>$9.99</del></p>
@@ -385,6 +391,11 @@
         <div class="offer-products" id="offer-row2">
           <div class="offer-product">
             <img src="img/berry.png" alt="">
+            <ul class="featured__item__pic__hover">
+              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
             <div class="offer_img-description">
               <h4>Apple Fruit</h4>
               <p>$14.00-<del>$9.99</del></p>
@@ -392,6 +403,11 @@
           </div>
           <div class="offer-product">
             <img src="img/motorsuti.png" alt="">
+            <ul class="featured__item__pic__hover">
+              <li><a href="#"><i class="fa fa-heart"></i></a></li>
+              <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+              <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
             <div class="offer_img-description">
               <h4>Apple Fruit</h4>
               <p>$14.00-<del>$9.99</del></p>
@@ -404,101 +420,7 @@
 
   <!--featured area end-->
 
-  <!-- footer -->
-  <footer class="footer">
-    <div class="row">
-      <div class="column" id="account">
-        <h4>My Account</h4>
-        <ul>
-          <li><a href="#">My Account</a></li>
-          <li><a href="#">Order History</a></li>
-          <li><a href="#">WishList</a></li>
-          <li><a href="#">NewsLetter</a></li>
-          <li><a href="#">Older History</a></li>
-          <li><a href="#">International Order</a></li>
-        </ul>
-      </div>
-      <div class="column" id="address">
-        <h4>Company Details</h4>
-        <p><b>Adress:</b><br> 21 Newstreet, Chaitan<br>town, China, 1201 <br><b>Contact:</b><br> 01789456123 <br>
-          example@gmail.com</p>
-      </div>
-      <div class="column" id="information">
-        <h4>Information</h4>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Delivery Information</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Term & Condition</a></li>
-          <li><a href="#">Customer Service</a></li>
-          <li><a href="#">Return Policy</a></li>
-        </ul>
-      </div>
-      <div class="column" id="links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Starbucks Reward</a></li>
-          <li><a href="#">Return</a></li>
-          <li><a href="#">Sign Up For Email</a></li>
-          <li><a href="#">My Account</a></li>
-          <li><a href="#">Shipping</a></li>
-        </ul>
-      </div>
-    </div>
-    <!--footer nav area start-->
-    <div class="footer-nav">
-      <div class="footer-logo" id="footer-item">
-        <a href=""><img src="img/logo.png" alt=""></a>
-      </div>
-      <div class="footer-search" id="footer-item">
-        <input type="text" placeholder="enter your mail" id="input-type">
-      </div>
-      <div class="payment-logo" id="footer-item">
-        <a href="" class="logo-item"><img src="img/visa.png" alt="logo"></a>
-        <a href="" class="logo-item"> <img src="img/paypal-logo.png" alt="logo"></a>
-        <a href="" class="logo-item"><img src="img/visa.png" alt="logo"></a>
-        <a href="" class="logo-item"><img src="img/western-union.png" alt="logo"></a>
-      </div>
-
-
-
-    </div>
-    <div class="last-footer">
-      <div class="copyright" id="last_footer-item">
-        Copyright &copy; Refreshed. All Right Reserved
-      </div>
-      <div class="footer-menu" id="last_footer-item">
-        <ul class="last_footer-menu">
-          <li class="last_footer-menu_item"><a href="#">Home</a></li>
-          <li class="last_footer-menu_item"><a href="#">Cases</a></li>
-          <li class="last_footer-menu_item"><a href="#">About</a></li>
-          <li class="last_footer-menu_item"><a href="#">Legal</a></li>
-          <li class="last_footer-menu_item"><a href="#">Privacy & Policy</a></li>
-        </ul>
-      </div>
-    </div>
-
-  </footer>
-
-  <!--script-->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function() {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'anonymizeIp', true);
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
-</html>
+  <?php
+  require_once('./include/footer.php');
+  require_once('./include/script.php');
+  ?>

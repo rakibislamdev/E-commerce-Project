@@ -5,7 +5,6 @@ login_required();
 include './include/dash_header.php';
 include './include/dash_asidebar.php';
 
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $product_name     = $_POST['product_name'];
     $file_tmp_name    = $_FILES['product_image']['tmp_name'];
@@ -18,10 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     move_uploaded_file($file_tmp_name, "../uploads/" . $file_name);
     $product_image = 'uploads/' . $file_name;
 
-
     $sql    = "INSERT INTO `product_add` (`product_name`, `product_image`, `price`, `categorey_name`, `quintity`, `created_at`, `updated_at`) VALUES ('$product_name', '$product_image', '$product_price','$product_category', '$product_quantity', current_timestamp(), current_timestamp())";
-
-
 
     $result = mysqli_query($db, $sql);
 

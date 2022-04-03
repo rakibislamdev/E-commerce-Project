@@ -96,6 +96,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -108,6 +111,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -120,6 +126,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -132,6 +141,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -146,6 +158,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -158,6 +173,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -170,6 +188,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -182,6 +203,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -223,6 +247,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -235,6 +262,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -247,6 +277,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -259,6 +292,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -273,6 +309,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -285,6 +324,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -297,6 +339,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -309,6 +354,9 @@
           <li><a href="#"><i class="fa fa-heart"></i></a></li>
           <li><a href="#"><i class="fa fa-retweet"></i></a></li>
           <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+          <br>
+          <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
         </ul>
         <div class="img-description">
           <h4>Apple Fruit</h4>
@@ -407,6 +455,9 @@
               <li><a href="#"><i class="fa fa-heart"></i></a></li>
               <li><a href="#"><i class="fa fa-retweet"></i></a></li>
               <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+              <br>
+              <button type="submit" class="
+          cart_btn"><a href="#">Add to Cart</a></button>
             </ul>
             <div class="offer_img-description">
               <h4>Apple Fruit</h4>

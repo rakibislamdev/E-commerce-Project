@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item text-bold text-dark"><a href="#">Category</a></li>
+                        <li class="breadcrumb-item text-bold text-dark"><a href="#">Product</a></li>
                         <li class="breadcrumb-item active">Dashboard</li>
                     </ol>
                 </div><!-- /.col -->
@@ -61,11 +61,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                 <select class="form-control" name="product_category">
                     <option>--select category--</option>
-
                     <?php
-                    while ($category = categories()) { ?>
-                        <option value="<?php $category['categorey_id'] ?>"><?php $category['cat_name'] ?></option>
-                    <?php } ?>
+                    $sql = "SELECT * FROM `product_categorey`";
+                    $result = mysqli_query($db, $sql);
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "
+                    <option>" . $row['cat_name'] . "</option>";
+                    }
+                    ?>
                 </select>
             </div>
             <div class="form-group">

@@ -386,14 +386,15 @@ hr {
 
 .product:hover .featured__item__pic__hover {
   display: block;
+  bottom: 80px;
 
 }
 
 .featured__item__pic__hover {
   position: absolute;
-  top: 45px;
-  bottom: 0;
-  right: 13px;
+  left: -40px;
+  bottom: -50px;
+  width: 100%;
   list-style: none;
   display: none;
   transition: 0.5s linear;
@@ -401,6 +402,36 @@ hr {
   -moz-transition: 0.5s linear;
   -ms-transition: 0.5s linear;
   -o-transition: 0.5s linear;
+}
+
+.featured__item__pic__hover .cart_btn {
+  background: #81AC27;
+  border: none;
+  padding: 7px;
+  margin-top: 40px;
+  top: 45px;
+  bottom: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.featured__item__pic__hover .cart_btn a {
+  color: #fff;
+}
+
+.featured__item__pic__hover li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 24px;
+  padding: 7px;
+}
+
+.featured__item__pic__hover li:last-child {
+  margin-right: 0;
 }
 
 .featured__item__pic__hover li a {
@@ -555,6 +586,7 @@ hr {
   width: 100%;
   height: 300px;
   margin: 0 8px;
+  position: relative;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
